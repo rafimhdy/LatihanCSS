@@ -1,10 +1,51 @@
 body {
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-size: 20px;
+    margin: 0;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-variant: small-caps;
      background-image: url(img/bg_image6.jpg);
      background-size: cover;
 }
+
+nav {
+    color: #1b5240;
+    background-color: #c8da96;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav td {
+    width: 100%;
+}
+
+nav img {
+    margin: 0 60px;
+    width:  6vh;
+    padding: 0px;
+}
+
+.logo-banner {
+    text-align: left;
+}
+
+.logo-banner p {
+    margin-top: 4px;
+}
+
+nav a {
+    font-variant: normal;
+    text-decoration: none;
+    color: #1b5240; 
+    line-height: 0px;
+}
+
+nav td p {
+    text-align: left;
+    line-height: 0px;
+    margin-left: 0;
+    color: #1b5240;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1  {
     color: whitesmoke;
     text-align: center;

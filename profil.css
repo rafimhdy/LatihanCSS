@@ -1,33 +1,56 @@
 body {
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav {
-    background-color: #4CB050;
-    padding: 15px;
-}
-
-nav p {
-    color: whitesmoke;
+    color: #1b5240;
+    background-color: #c8da96;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 nav td {
     width: 100%;
 }
 
+nav img {
+    margin: 0 60px;
+    width:  6vh;
+    padding: 0px;
+}
+
+.logo-banner {
+    text-align: left;
+}
+
+.logo-banner p {
+    margin-top: 4px;
+}
+
 nav a {
+    font-variant: normal;
     text-decoration: none;
-    color: whitesmoke;
+    color: #1b5240; 
+    line-height: 0px;
+}
+
+nav td p {
+    text-align: left;
+    line-height: 0px;
+    margin-left: 0;
+    color: #1b5240;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .info p {
     margin-left: 10px;
-
+    color: #c8da96;
 }
 
 .info {
-    background-color: #F4F4F4;
+    background-color: #1b5240
+    ;
     padding: 40px;
 }
 
@@ -38,6 +61,14 @@ img {
 
 .kontak {
     margin: 40px;
+    color: #1b5240;
+    text-align: center;
+}
+
+.judul_kontak {
+    font-size: x-large;
+    font-variant: small-caps;
+    font-weight: bolder;
 }
 
 .kembali {
